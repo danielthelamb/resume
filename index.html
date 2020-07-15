@@ -8,18 +8,61 @@
   <meta name="description" content="Daniel Lam Resume">
   <meta name="author" content="Daniel Lam">
 
-  <link rel="styles" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
 
 </head>
 
 <body>
   <script src="script.js"></script>
-  <img src="images/ProfilePicture.jpg" alt="Daniel Lam">
-  <h1>Daniel Lam</h1>
-  <p><a href="https://www.linkedin.com/in/danielthelamb/">LinkedIn</a></p>
-  <p><a href="#">GitHub</a></p>
+  <div id="nav-bar">
+    <ul>
+      <li class="nav-left"><a class="active" href="#landing-section">Home</a></li>
+      <li class="nav-left"><a href="#work-section">Work</a></li>
+      <li class="nav-left"><a href="#contact-section">Contact</a></li>
+      <li class="nav-right"><a href="https://github.com/danielthelamb/" target="_blank"><img src="images/GitHub.png" style="width: 20px; height: 20px;"></a></li>
+      <li class="nav-right"><a href="https://www.linkedin.com/in/danielthelamb/" target="_blank"><img src="images/LinkedIn.png" style="width: 20px; height: 20px;"></a></li>
+    </ul>
+  </div>
 
-  <p>I am a React/React Native & iOS Developer</p>
+  <div id="landing-section">
+    <div>
+      <img src="images/ProfilePicture.jpg" alt="Daniel Lam" width="100px" height="100px">
+    </div>
+
+    <div>
+      <h1>I'm Daniel.</h1>
+      <p>A Developer</p>
+    </div>
+  </div>
+
+  <div id="work-section">
+    <h1>Work</h1>
+
+    <p>My most recent project is called PickyPickle.</p>
+
+    
+    <p>Here's a selection of some recent work.</p>
+    <a href="work.html">View More</a>
+  </div>
+
+  <div id="contact-section">
+    <h1>Contact</h1>
+    <p style="font-size: 24px;">I’m currently <strong>available</strong> for freelance work.</p>
+    <p>If you have a project that you want to get started, think you need my help<br>with something or just fancy saying hey, then get in touch.</p>
+    <button><a href="mailto:daniel_lam@hotmail.com?">Message Me</a></button>
+
+    <table class="center">
+      <tr>
+        <td><a href="https://www.linkedin.com/in/danielthelamb/" target="_blank"><img src="images/LinkedIn.png" style="width: 70px; height: 70px;"></a></td>
+        <td><a href="https://github.com/danielthelamb/" target="_blank"><img src="images/GitHub.png" style="width: 70px; height: 70px;"></a></td>
+      </tr>
+    </table>
+  </div>
+
+
+
+
   <hr>
   <ul>
     <li>React</li>
