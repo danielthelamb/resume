@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica;
+    color: #999999;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    height: 150px;
+    text-align: center;
+    background-color: #333;
+}
+
+h1 {
+    color: #1B2B42;
+}
+
+p {
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#nav-bar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.nav-left {
+    float:left;
+}
+
+.nav-right {
+    float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: red;
+}
+
+.active {
+    color: #12192B;
+}
+
+
+#about-section, #work-section, #contact-section {
+    text-align: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#about-section {
+    background-color: #333;
+}
+
+#work-section {
+    background-color: #ffffff;
+}
+
+#contact-section {
+    background-color: #ffffff;   
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 30px;
+}
+
+#skills {
+    font-size: 5vw;
+    margin: 0 12% 0 12%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 15em;
+    animation: type 2s steps(60, end);
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
