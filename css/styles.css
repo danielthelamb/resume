@@ -13,10 +13,6 @@ footer {
     background-color: #333;
 }
 
-h1 {
-    color: #1B2B42;
-}
-
 p {
     font-size: 20px;
 }
@@ -50,7 +46,7 @@ ul {
   
 li a {
     display: block;
-    color: white;
+    color: #999999;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,26 +57,30 @@ li a:hover {
 }
 
 .active {
-    color: #12192B;
+    color: white;
 }
 
 
-#about-section, #work-section, #contact-section {
+#home-section, #about-section, #work-section, #contact-section {
     text-align: center;
     height: 100vh;
     padding-top: 50px;
 }
 
-#about-section {
+#home-section {
     background-color: #333;
 }
 
+#about-section {
+    background: white;
+}
+
 #work-section {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #contact-section {
-    background-color: #ffffff;   
+    background-color: white;   
 }
 
 table.center {
@@ -95,9 +95,14 @@ table.center {
     white-space: nowrap;
     overflow: hidden;
     width: 15em;
-    animation: type 2s steps(60, end);
+    animation: type 1.5s steps(60, end);
 }
 
 @keyframes type{ 
     from { width: 0; } 
 } 
+
+.skill:hover {
+    color: white;
+}
+
